@@ -115,6 +115,7 @@ export default async function LocalizedContactPage({
           {/* Right column: real wired form */}
           <ContactForm
             locale={locale as Locale}
+            page={`/${locale}/contact`}
             labels={{
               formTag: dict.pages.contact.formTag,
               nameLabel: dict.pages.contact.nameLabel,
